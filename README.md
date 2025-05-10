@@ -11,6 +11,6 @@
 python -m pip install -r requirements.txt
 ```
 
-*Modifier seulement le fichier [`main.py`](./main.py)* si vous souhaitez tester vos fonctions (partie 3) ou vos jeux de données (partie 4). Le code utilise la fonction `eval` pour évaluer les expressions des fonctions. Ceci est uniquement utile pour faciliter le programme. **Maniez avec précaution**.
+**Modifier seulement le fichier [`main.py`](./main.py)** si vous souhaitez tester vos fonctions (partie 3) ou vos jeux de données (partie 4). Le code utilise la fonction `eval` pour évaluer les expressions des fonctions. Ceci est uniquement utile pour faciliter le programme. **Maniez avec précaution**.
 
-*Mady by Boll*, en lien direct avec les cours de "Méthodes d'optimisation" de la 2e année du BUT Informatique de l'IUT Montpellier-Sète (2025).
+*Mady by C. CANO and Boll*, en lien direct avec les cours de "Méthodes d'optimisation" de la 2e année du BUT Informatique de l'IUT Montpellier-Sète (2025).
