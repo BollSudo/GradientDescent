@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 from algo import Fonction2D, draw_3d, draw_courbes_niveau, descente, print_result, draw_descente_in_3d, \
-    draw_descente_in_courbes_niveau, mc_gradient, mc_calc_theorie, draw_results_mc, print_result_mc
+    draw_descente_in_courbes_niveau, mc_gradient, mc_calc_theorie, draw_results_mc, print_result_mc, \
+    print_result_theorie
 
 matplotlib.use('TkAgg', force=False) # Pour les graphes intéractifs si le moteur graphique backend est installé
 
@@ -60,6 +61,8 @@ def partie4()-> None:
     resultmc_theo = mc_calc_theorie(x, y)
     draw_results_mc(x, y, resultmc, resultmc_theo)
     print_result_mc(resultmc)
+    print_result_theorie(resultmc_theo)
+
     plt.show()
 
 if __name__ == '__main__':
